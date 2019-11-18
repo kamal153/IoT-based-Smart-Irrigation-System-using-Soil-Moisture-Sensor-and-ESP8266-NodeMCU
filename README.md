@@ -6,3 +6,10 @@ The Smart irrigation System has wide scope to automate the complete irrigation s
 We previously build similar Automatic Plant Irrigation System which sends alerts on mobile but not on IoT cloud. Apart from this, Rain alarm and soil moisture detector circuit can also be helpful in building Smart Irrigation system. \
  \
 Before starting, it is important to note that the different crops require different Soil Moisture, Temperature and Humidity Condition. So in this tutorial we are using such a crop which will require a soil moisture of about 50-55%. So when the soil loses its moisture to less than 50% then Motor pump will turn on automatically to sprinkle the water and it will continue to sprinkle the water until the moisture goes upto 55% and after that the pump will be turned off. The sensor data will be sent to ThingSpeak Server in defined interval of time so that it can be monitored from anywhere in the world. \
+
+# Components Required
+NodeMCU ESP8266 \
+Soil Moisture Sensor Module \
+Water Pump Module \
+Relay Module \
+DHT11
